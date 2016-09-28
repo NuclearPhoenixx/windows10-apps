@@ -6,7 +6,7 @@ For example you can remove the camera app, "get started", windows maps and many 
 
 
 
-Just download it and give it a try. For the program to work you need to download the ´´Batch´´ *and* the ´´Powershell´´ script to the *same* directory.
+Just download it and give it a try. For the program to work you need to download the ´´´Batch´´´ *and* the ´´´Powershell´´´ script to the *same* directory.
 
 ---
 
