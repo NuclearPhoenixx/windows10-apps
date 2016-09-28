@@ -4,9 +4,9 @@ This is a simple program to uninstall most of the Windows 10 apps, that you cann
 
 For example you can remove the camera app, "get started", windows maps and many more!
 
----
 
-Just download it and give it a try. For the program to work you need to download the ~Batch~ *and* the ~Powershell~ script to the same directory.
+
+Just download it and give it a try. For the program to work you need to download the ´´Batch´´ *and* the ´´Powershell´´ script to the *same* directory.
 
 ---
 
