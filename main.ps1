@@ -1,4 +1,4 @@
-# Version 1.0 by Phoenix1747
+# Version 1.1 by Phoenix1747
 
 clear-host
 $progs = @("phone","sway","messaging","3dbuilder","windowsalarms","windowscalculator","windowscommunicationsapps","windowscamera","officehub","skypeapp","getstarted","zunemusic","windowsmaps","solitairecollection","bingfinance","zunevideo","bingnews","onenote","people","windowsphone","photos","windowsstore","bingsports","soundrecorder","bingweather","xboxapp")
@@ -15,7 +15,7 @@ if (!([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]
 
 write-host "
  +----------------------------------------------+
- | Windows10-Apps Removal Tool | Version 1.0    |
+ | Windows10-Apps Removal Tool | Version 1.1    |
  | Open-source project by Aperture Diversion    |
  +----------------------------------------------+
 " -backgroundColor DarkBlue

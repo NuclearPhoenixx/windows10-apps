@@ -1,6 +1,6 @@
 @echo off
-TITLE Windows 10 Apps Utility
+TITLE Windows 10 Application Utility
 COLOR 0F
 
-powershell -executionpolicy remotesigned -Command "%~dp0Win10_apps-uninstaller-script.ps1"
-pause
+powershell -executionpolicy remotesigned -Command "%~dp0main.ps1"
+exit
