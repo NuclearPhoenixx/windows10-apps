@@ -1,4 +1,4 @@
-# Version 1.1 by Phoenix1747
+# Version 1.2 by Phoenix1747
 
 clear-host
 $progs = @("phone","sway","messaging","3dbuilder","windowsalarms","windowscalculator","windowscommunicationsapps","windowscamera","officehub","skypeapp","getstarted","zunemusic","windowsmaps","solitairecollection","bingfinance","zunevideo","bingnews","onenote","people","windowsphone","photos","windowsstore","bingsports","soundrecorder","bingweather","xboxapp")
@@ -28,7 +28,7 @@ if ($action -ceq "u") {
 		clear-host
 		write-host ""
 		write-host " Do you want to uninstall $prog ?" -foregroundcolor Yellow
-		$yn = read-host " Yes (y), No (a), Yes-all (a)"
+		$yn = read-host " Yes (y), No (n), Yes-all (a)"
 		
 		if ($yn -ceq "y") {
 			clear-host
@@ -69,7 +69,7 @@ elseif ($action -ceq "r") {
  Press any key to start the reinstallation..." -foregroundcolor Yellow
 	cmd /c pause | out-null
 	
-	Get-AppxPackage -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register “$($_.InstallLocation)\AppXManifest.xml”}
+	Add-AppxPackage -register "C:\Program Files\WindowsApps\***\AppxManifest.xml" -DisableDevelopmentMode
 	
 	clear-host
 	write-host ""

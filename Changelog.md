@@ -1,5 +1,8 @@
 # Changelog:
 
+v.1.2 (09 October 2016)
+* Fixed some bugs.
+
 v.1.1 (03 October 2016)
 * Renamed powershell file (long names = bad).
 * Fixed pause command/exit bug.
