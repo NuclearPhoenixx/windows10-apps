@@ -1,6 +1,7 @@
 # Changelog:
 
 v.1.2 (09 October 2016)
+* Added some more apps.
 * Fixed some bugs.
 
 v.1.1 (03 October 2016)

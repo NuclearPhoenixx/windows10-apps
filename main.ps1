@@ -1,7 +1,7 @@
 # Version 1.2 by Phoenix1747
 
 clear-host
-$progs = @("phone","sway","messaging","3dbuilder","windowsalarms","windowscalculator","windowscommunicationsapps","windowscamera","officehub","skypeapp","getstarted","zunemusic","windowsmaps","solitairecollection","bingfinance","zunevideo","bingnews","onenote","people","windowsphone","photos","windowsstore","bingsports","soundrecorder","bingweather","xboxapp")
+$progs = @("MicrosoftStickyNotes","OneConnect","ConnectivityStore","WindowsFeedbackHub","phone","sway","messaging","3dbuilder","windowsalarms","windowscalculator","windowscommunicationsapps","windowscamera","officehub","skypeapp","getstarted","zunemusic","windowsmaps","solitairecollection","bingfinance","zunevideo","bingnews","onenote","people","windowsphone","photos","windowsstore","bingsports","soundrecorder","bingweather","xboxapp")
 
 if (!([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")){
 	write-host "
@@ -15,7 +15,7 @@ if (!([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]
 
 write-host "
  +----------------------------------------------+
- | Windows10-Apps Removal Tool | Version 1.1    |
+ | Windows10-Apps Removal Tool | Version 1.2    |
  | Open-source project by Aperture Diversion    |
  +----------------------------------------------+
 " -backgroundColor DarkBlue
