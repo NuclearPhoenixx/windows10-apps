@@ -26,4 +26,4 @@ Just download it and give it a try. For the program to work you need to download
 
 ---
 
-(c) Aperture Diversion, Phoenix1747. 2016.
+Aperture Diversion, Phoenix1747. 2017.
