@@ -1,7 +1,7 @@
 # Version 1.2 by Phoenix1747
 
 clear-host
-$progs = @("MicrosoftStickyNotes","OneConnect","ConnectivityStore","WindowsFeedbackHub","phone","sway","messaging","3dbuilder","windowsalarms","windowscalculator","windowscommunicationsapps","windowscamera","officehub","skypeapp","getstarted","zunemusic","windowsmaps","solitairecollection","bingfinance","zunevideo","bingnews","onenote","people","windowsphone","photos","windowsstore","bingsports","soundrecorder","bingweather","xboxapp")
+$progs = @("MSPaint","Appconnector","3dviewer","MicrosoftStickyNotes","OneConnect","ConnectivityStore","WindowsFeedbackHub","phone","sway","messaging","3dbuilder","windowsalarms","windowscalculator","windowscommunicationsapps","windowscamera","officehub","skypeapp","getstarted","zunemusic","windowsmaps","solitairecollection","bingfinance","zunevideo","bingnews","onenote","people","windowsphone","photos","windowsstore","bingsports","soundrecorder","bingweather","xboxapp")
 
 if (!([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")){
 	write-host "
