@@ -16,7 +16,7 @@ if (!([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]
 write-host "
  +----------------------------------------------+
  | Windows10-Apps Removal Tool | Version 1.2    |
- | Open-source project by Aperture Diversion    |
+ | Open-source project by Phoenix1747		|
  +----------------------------------------------+
 " -backgroundColor DarkBlue
 
