@@ -27,4 +27,4 @@ Just download it and give it a try. For the program to work you need to download
 
 ---
 
-Aperture Diversion, Phoenix1747. 2017.
+2017, Phoenix1747
