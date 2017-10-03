@@ -1,5 +1,5 @@
 # Windows10-Apps Removal Tool
-![latest version](https://img.shields.io/github/release/phoenix1747/windows10-apps.svg) ![issues](https://img.shields.io/github/issues/phoenix1747/windows10-apps.svg) ![Downloads](https://img.shields.io/github/downloads/phoenix1747/windows10-apps/latest/total.svg)
+![latest version](https://img.shields.io/github/release/phoenix1747/windows10-apps.svg?style=flat-square) ![issues](https://img.shields.io/github/issues/phoenix1747/windows10-apps.svg?style=flat-square) ![Downloads](https://img.shields.io/github/downloads/phoenix1747/windows10-apps/latest/total.svg?style=flat-square)
 
 This is a simple program to uninstall most of the Windows 10 apps, that you cannot remove through a normal uninstallation.
 
