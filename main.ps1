@@ -14,13 +14,13 @@ if (!([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]
 
 
 write-host "
- +----------------------------------------------+
- | Windows10-Apps Removal Tool | Version 1.2    |
- | Open-source project by Phoenix1747		|
- +----------------------------------------------+
+ +------------------------------------+
+ | Windows10-Apps Removal Tool        |
+ | Open-source project by Phoenix1747 |
+ +------------------------------------+
 " -backgroundColor DarkBlue
 
-$action = read-host " Would you like to uninstall (u) or reinstall (r) Windows 10 apps? (u/r)"
+$action = read-host " Would you like to (u)ninstall or (r)einstall apps? (u/r)"
 
 if ($action -ceq "u") {
 	
